@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+/* 🔥 Essencial */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6d4e4;
+    margin: 0;
+    font-family: "Merriweather", serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-shadow:
+        0 0 0.3rem #ff4da6,
+        0 0 0.6rem #ff4da6,
+        0 0 1.2rem #ff4da6,
+        0 0 2.5rem #ff4da6
+}
+
+.titulo h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+/* Links */
+a {
+    font-size: 2rem;
+}
+
+
+/* 🔥 Ajuste principal (menu mobile) */
+.titulo {
+    display: flex;
+    flex-direction: column; /* mobile primeiro */
+    align-items: center;
+}
+
+.titulo img {
+    width: 13rem;
+    height: auto;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    flex-wrap: wrap; /* evita quebrar */
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+nav a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow:
+        0 0 0.3rem #ff4da6,
+        0 0 0.6rem #ff4da6,
+        0 0 1.2rem #ff4da6,
+        0 0 2.5rem #ff4da6;
+}
+
+nav a:hover {
+    background-color: #ff1493;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+/* Banner */
+#banner {
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url(image/img1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 1rem;
+    height: 20vh;
+    margin-top: 1rem;
+}
+
+.banner h2{
+  color: #f6d4e4;
+  font-size: 3rem;
+  margin-bottom: 0;
+  text-shadow: 3px 3px black;
+}
+
+.banner p{
+  color: #f6d4e4;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+  font-size: 1.8rem;
+}
+
+/* Seções */
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#sobre h2,
+#servicos h2,
+#contato h2 {
+    margin-top: 0;
+    background-color: #ff1493;
+    color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+}
+
+#sobre p,
+#contato p{
+  font-size: 1.5rem;
+}
+
+#servicos ul {
+  font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+/* Botão */
+button {
+    margin-top: 3rem;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+
+button:hover {
+    color: white;
+    background-color: #fbcee6;
+}
+
+/* Footer */
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}

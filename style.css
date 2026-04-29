@@ -73,7 +73,7 @@ nav a:hover {
 
 /* Banner */
 #banner {
-    background-image: 
+    background-image:
         linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
         url(image/img1.png);
     background-size: cover;
@@ -149,4 +149,56 @@ footer {
     text-align: center;
     padding: 1rem;
     font-size: 1rem;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .titulo h1 {
+        font-size: 2.5rem;
+    }
+
+    nav {
+        gap: 2rem;
+    }
+
+    nav a {
+        font-size: 2rem;
+    }
+
+    #banner {
+        height: 30vh;
+    }
+
+    .banner h2 {
+        margin-top: 0.5rem;
+        font-size: 3rem;
+    }
+
+    .banner p {
+        font-size: 2.3rem;
+        margin-top: 2rem;
+    }
+
+    #sobre h2,
+    #servicos h2,
+    #contato h2 {
+        font-size: 2rem;
+    }
+
+    #sobre p,
+    #contato p {
+        font-size: 2rem;
+    }
+
+    #servicos ul {
+        font-size: 2rem;
+    }
+
+    button{
+        font-size: 2rem;
+    }
+
+    footer{
+        font-size: 2rem;
+    }
 }
